@@ -1,0 +1,8 @@
+*.db
+*.swp
+*.swo
+*.pyc
+__pycache__
+build
+dist
+*.egg*
