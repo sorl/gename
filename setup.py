@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='gename',
-    version='0.0.4',
+    version='0.0.5',
     description='Guess gender from first name.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
