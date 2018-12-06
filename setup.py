@@ -3,9 +3,10 @@ from setuptools import setup
 
 setup(
     name='gename',
-    version='0.0.1',
+    version='0.0.2',
     description='Guess gender from first name.',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Mikko Hellsing',
     author_email='mikko@sumsum.se',
     url='http://github.com/sorl/gename',
