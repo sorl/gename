@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='gename',
-    version='0.0.5',
+    version='0.0.6',
     description='Guess gender from first name.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -11,7 +11,6 @@ setup(
     author_email='mikko@sumsum.se',
     url='http://github.com/sorl/gename',
     packages=['gename'],
-    package_data={'gename': ['names.db']},
     include_package_data=True,
     zip_safe=False,
     license='ICS',
