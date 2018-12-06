@@ -12,9 +12,11 @@ database lookup.
 'M'
 >>> gender.speculate('Simone')
 'F'
->>> gender.speculate('Unicorn')
+>>> gender.speculate('Kim')
+'U'
+>>> gender.speculate('Not a real name')
 'U'
 ~~~
 
-U is for Unknown.
+U as in Unisex, Unknown.
 

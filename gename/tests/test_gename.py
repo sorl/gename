@@ -7,6 +7,7 @@ class GenderCase(unittest.TestCase):
         gender = Gender()
         self.assertEqual(gender.speculate('Johanna'), 'F')
         self.assertEqual(gender.speculate('Mikko'), 'M')
+        self.assertEqual(gender.speculate('Robin'), 'U')
         self.assertEqual(gender.speculate('abcdef'), 'U')
 
 
